@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Steamcito Converter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Steamcito Converter</h1>
+    <p>Calculá fácilmente cuánto cuesta en pesos argentinos</p>
+  </header>
+
+  <div class="dollar-rate">
+    <p>Dólar hoy: <span id="dollarValue">$ - </span></p>
+  </div>
+
+  <div class="converter">
+    <input type="number" id="usdInput" placeholder="Precio en USD" />
+    <button onclick="convertToARS()">Convertir</button>
+    <div id="result">💸 Total en pesos: $0</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
